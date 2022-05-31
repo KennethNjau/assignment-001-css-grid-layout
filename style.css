@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.8fr 2fr 0.8fr;
+    grid-template-rows: 0.2fr 2fr 0.2fr;
+    grid-template-areas: 
+            "head head head "
+            "leftsidebar main rightsidebar"
+            "footer footer footer";
+    grid-gap: 10px;
+}
+nav{
+    background-color: #FE8515;
+    color: azure;
+    grid-area: head;
+    text-align: center;
+    
+}
+main{
+    background-color: #8BF10A;
+    color: azure;
+    grid-area: main;
+    border-radius: 2%;
+    text-align: center;
+}
+#leftsidebar{
+    background-color: #7fc242;
+    color: azure;
+    grid-area: leftsidebar;
+    border-radius: 2%;
+    text-align: center;
+}
+#rightsidebar{
+    background-color: #7fc242;
+    color: azure;
+    grid-area: rightsidebar;
+    border-radius: 2%;
+    text-align: center;
+}
+footer{
+    background-color: #F57E20;
+    color: azure;
+    grid-area: footer;
+    text-align: center;
+}
+
