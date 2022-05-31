@@ -14,7 +14,10 @@ nav{
     color: azure;
     grid-area: head;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 main{
     background-color: #8BF10A;
@@ -22,6 +25,9 @@ main{
     grid-area: main;
     border-radius: 2%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #leftsidebar{
     background-color: #7fc242;
@@ -29,6 +35,9 @@ main{
     grid-area: leftsidebar;
     border-radius: 2%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #rightsidebar{
     background-color: #7fc242;
@@ -36,11 +45,17 @@ main{
     grid-area: rightsidebar;
     border-radius: 2%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
     background-color: #F57E20;
     color: azure;
     grid-area: footer;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
